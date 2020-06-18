@@ -11,7 +11,7 @@
 #title {
     color: black;
     text-decoration: none;
-    font-family: 'SF UI Display Bold';
+    font-family: -apple-system-headline, 'SF UI Display Bold';
     font-size: 3.5rem;
     font-style: normal;
     -webkit-font-smoothing: antialiased;

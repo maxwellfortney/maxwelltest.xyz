@@ -25,8 +25,12 @@
             var hamburger = document.getElementById("hamburger");
             hamburger.classList.toggle("is-active");
 
-            var overlay = document.getElementById("menu-circle");
-            overlay.classList.toggle("engulf")
+            var bgCircle = document.getElementById("menu-circle");
+            bgCircle.classList.toggle("engulf")
+            
+            var overlay = document.getElementById("overlay");
+            overlay.classList.toggle("overlay-show")
+
 
             var links = document.getElementsByClassName("mobile-link");
             for (var i = 0; i < links.length; i++) {

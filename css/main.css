@@ -95,6 +95,10 @@
     #phone {
         max-width: 100% !important;
     }
+    #get-started{
+
+        font-size: 1.1rem;
+    }
 }
 
 

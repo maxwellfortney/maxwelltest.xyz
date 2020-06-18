@@ -57,6 +57,7 @@ body {
 nav>a{
     padding-bottom: 10px;
 }
+
 nav>a::before {
     content: "";
     position: absolute;
@@ -266,4 +267,9 @@ nav>a:hover::before {
 
 .overlay-show {
     z-index: 1 !important;
+}
+
+.is-open::before {
+    transform: scale(1);
+    visibility: visible;
 }

@@ -84,26 +84,34 @@
         <div id="mainFAQContainer">
             <h1>FAQ</h1>
             <div id="accordionContainer">
-                <button class="accordion">Q: Will I need port-forwarding for this to work?</button>
+                <div class="accordion">
+                    <p>Q: Will I need port-forwarding for this to work?</p>
+                </div>
                 <div class="panel">
                     <p>No, we utilize Ngrok to create a secure tunnel between your server and your client. You can
                         optionally disable this to use your own local IP or dynamic dns.</p>
                 </div>
 
-                <button class="accordion">Q: Is my data encrypted?</button>
+                <div class="accordion">
+                    <p>Q: Is my data encrypted?</p>
+                </div>
                 <div class="panel">
                     <p>Yes, all connections are done over HTTPS/WSS and utilizes TLS encryption by default (see: Ngrok)
                     </p>
                 </div>
 
-                <button class="accordion">Q: How can I support the developers?</button>
+                <div class="accordion">
+                    <p>Q: How can I support the developers?</p>
+                </div>
                 <div class="panel">
                     <p>We don't charge anything for the use of our applications or code, however you can support us by
                         donating on our
                         <a href="/donate" style="color: #147efb; text-decoration: none;">donations page</a>.</p>
                 </div>
 
-                <button class="accordion">Q: How is BlueBubbles different than AirMessage?</button>
+                <div class="accordion">
+                    <p>Q: How is BlueBubbles different than AirMessage?</p>
+                </div>
                 <div class="panel">
                     <p>iOS inspired UI/UX, Custom themeing, Port-forwarding not required, Entire ecosystem is
                         open-source,
@@ -113,48 +121,62 @@
                         need to rely on owner's servers/maintenance).</p>
                 </div>
 
-                <button class="accordion">Q: Why do I need to sign up for Google's Firebase Service? </button>
+                <div class="accordion">
+                    <p>Q: Why do I need to sign up for Google's Firebase Service? </p>
+                </div>
                 <div class="panel">
                     <p>BlueBubbles does not require an open socket connection at all times (to reduce battery usage). We
                         use
                         Google FCM to still be able to send/receive alerts even when the socket is closed</p>
                 </div>
 
-                <button class="accordion">Q: Why does the MacOS server require Full Disk Access?</button>
+                <div class="accordion">
+                    <p>Q: Why does the MacOS server require Full Disk Access?</p>
+                </div>
                 <div class="panel">
                     <p>MacOS does not allow app's to read from iMessage's chat database unless they have Full Disk
                         Access.
                     </p>
                 </div>
 
-                <button class="accordion">Q: Why does the MacOS server require Accessibility Access?</button>
+                <div class="accordion">
+                    <p>Q: Why does the MacOS server require Accessibility Access?</p>
+                </div>
                 <div class="panel">
                     <p>In order to execute actions such as renaming a group chat or adding/removing a participant from a
                         group. Apple does not expose APIs to do this natively, so accessibility is used.</p>
                 </div>
 
-                <button class="accordion">Q: Can I share my QR Code?</button>
+                <div class="accordion">
+                    <p>Q: Can I share my QR Code?</p>
+                </div>
                 <div class="panel">
                     <p>No, your QR code should be private. If it gets leaked, you will need to generate new client
                         secret
                         credentials via Google's Firebase Console.</p>
                 </div>
 
-                <button class="accordion">Q Can we react to messages?</button>
+                <div class="accordion">
+                    <p>Q Can we react to messages?</p>
+                </div>
                 <div class="panel">
                     <p>We currently support sending reactions on the desktop app, however the reliability is not great.
                         We
                         are working on increasing the reliability, so stay tuned!</p>
                 </div>
 
-                <button class="accordion"> Q: Can we see typing indicators? </button>
+                <div class="accordion">
+                    <p>Q: Can we see typing indicators?</p>
+                </div>
                 <div class="panel">
                     <p>No not yet, however just like reactions we are trying our best to implement them in a future
                         release.
                     </p>
                 </div>
 
-                <button class="accordion">Q: Does BlueBubbles support SMS?</button>
+                <div class="accordion">
+                    <p>Q: Does BlueBubbles support SMS?</p>
+                </div>
                 <div class="panel">
                     <p>Not at the moment, however we plan to implement it in a future release.</p>
                 </div>

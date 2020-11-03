@@ -16,13 +16,13 @@
         url('/fonts/SF-UI-Display-Black.woff') format('woff');
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 0px;
     background: transparent;
     /* make scrollbar transparent */
 }
 
-html {
+*/ html {
     height: 100vh;
     min-height: 100vh;
     width: 100vw;

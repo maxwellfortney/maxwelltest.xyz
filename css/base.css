@@ -28,8 +28,8 @@ html {
     width: 100vw;
     min-width: 100vw;
     overflow-x: hidden;
-    position: fixed;
     display: block;
+    /* position: fixed; */
 }
 
 body {
@@ -40,7 +40,7 @@ body {
     display: block;
     margin: 0;
     overflow-x: hidden;
-    position: fixed;
+    /* position: fixed; */
 }
 
 #mainContainer {
